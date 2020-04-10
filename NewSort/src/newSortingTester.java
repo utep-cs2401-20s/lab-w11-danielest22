@@ -14,7 +14,7 @@ public class newSortingTester {
         int[] expected = {1,2,5,7};//expected output
         assertArrayEquals(expected, test);
     }
-@Test
+    @Test
     //Test Case 2: Testing to see if newSort(); can sort an array with an odd length and odd size
     //Expected: {1,2,3,4,5,6,7};
     //Actual Result: {1,2,3,4,5,6,7};
